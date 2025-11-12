@@ -1,0 +1,4 @@
+for i in range(1000, 10000):
+    if int(i ** 0.5) ** 2 == i:
+        if all(int(d) % 2 == 0 for d in str(i)):
+            print(i)
