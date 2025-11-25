@@ -1,7 +1,0 @@
-import math
-import datetime
-import random
-print(math.sqrt(16))  
-today = datetime.date.today()
-print(today)         
-print(random.randint(1, 10)) 
